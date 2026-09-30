@@ -48,16 +48,20 @@ Foram trabalhados conceitos como:
 - Modularização com import/export
 - Depuração com DevTools
 
-## Arquitetura JavaScript
+## Arquitetura proposta
 
-Durante a evolução da aplicação, as responsabilidades do código foram separadas em módulos específicos, incluindo:
+Durante a Experiência Prática III, foi definida uma organização modular para separar as principais responsabilidades da aplicação em JavaScript.
+
+A arquitetura proposta considerou módulos como:
 
 - `router.js` — gerenciamento da navegação da SPA
 - `templates.js` — geração de conteúdos dinâmicos
 - `forms.js` — tratamento e validação de formulários
 - `storage.js` — persistência e recuperação de dados
 
-Essa organização busca reduzir o acoplamento e tornar o código mais legível, reutilizável e fácil de manter.
+A proposta utiliza conceitos de modularização com `import` e `export`, buscando reduzir o acoplamento e favorecer a legibilidade, reutilização e manutenção do código.
+
+> Nesta etapa acadêmica, essas estruturas representam a arquitetura e as soluções técnicas especificadas durante a experiência prática. Uma implementação funcional completa em código-fonte está prevista como evolução futura do projeto.
 
 ## Aprendizados
 
